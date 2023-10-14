@@ -12,7 +12,7 @@ app = FastAPI()
     path="/",
     status_code=status.HTTP_200_OK,
     tags=["Home"],
-    deprecated=True #<--- para desavilitar False se pude ver / True no se puede ver
+    deprecated=True
     )
 def home(): 
     return {"Hello": "World"}
