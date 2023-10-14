@@ -3,7 +3,6 @@ from datetime import datetime
 from sqlalchemy import Column, DateTime, Integer, String
 from models.sql import SessionLocal
 
-#declaracion de los atributos de la base
 Base = declarative_base()
 
 def get_db():
